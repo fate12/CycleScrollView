@@ -57,6 +57,8 @@
     
     _imagesGroup = imagesGroup;
     
+    NSLog(@"%@",_imagesGroup);
+    
     [self initCycleImage];//开始时图片的位置
     [self addPageControl];
     
